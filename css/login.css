@@ -1,0 +1,26 @@
+@charset="utf-8";
+.login-title{
+	font-size:28px;
+	color:#0072ac;
+	font-weight:600;
+	text-align:center;
+	text-shadow:1px 1px 1px #c0c0c0;
+	display:block;
+}
+.login-title span{
+	font-size:16px;
+	color:#ee3548;
+	text-shadow:none;
+}
+.divide-hr{
+	border-top:3px solid #cecece;
+}
+#login{
+	padding:20px;
+}
+#login img{
+	width:200px;
+	border-radius:50% 50% 15% 15%;
+	float:right;
+	display:block;
+}

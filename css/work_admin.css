@@ -1,0 +1,9 @@
+@charset="utf-8";
+#work_nav{
+	border-right:3px solid #e6e677;
+	color:#e6e677;
+	text-shadow:1px 1px 1px #c29037;
+}
+#work_admin{
+	margin-top:100px;
+}

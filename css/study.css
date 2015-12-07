@@ -1,0 +1,32 @@
+@charset="utf-8";
+#apply_study{
+	margin-top:100px;
+	background:transparent;
+	border:none;
+	box-shadow:none;
+}
+.main strong{
+	color:#0072ac;
+}
+.main input[type="button"]{
+	float:right;
+}
+.main hr{
+	width:100%;
+	padding:0;
+	clear:both;
+}
+.study_content{
+	background-color:#fbfbfb;
+	padding:10px 0;
+	margin:20px 50px;
+	border-radius:5px;
+	border:1px solid #c0c0c0;
+}
+.study_content img{
+	vertical-align:middle;
+}
+.study_content label{
+	border-left:1px solid #c0c0c0;
+	border-right:1px solid #c0c0c0;
+}

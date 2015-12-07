@@ -1,0 +1,71 @@
+@charset="utf-8";
+.list{
+	display:none;
+}
+#setting{
+	width:800px;	
+	padding:10px;
+	margin:100px auto 0;
+}
+#setting hr{
+	width:100%;
+	clear:both;
+}
+#setting img{
+	width:40px;
+	float:left;
+}
+#setting div{
+	clear:both;
+	width:100%;
+}
+#setting span{
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	float:left;
+}
+#setting .hr{
+	border-top:3px groove #efefef;
+	border-bottom:1px solid #666;
+	padding:0;
+	margin:10px 0;
+}
+#setting .setting-title{
+	font-size:30px;
+	height:60px;
+	line-height:60px;
+	font-weight:600;
+	text-shadow:1px 1px 1px #aaa;
+	margin-bottom:10px;
+}
+#setting .setting-sub-title{
+	float:left;
+}
+#setting .setting-content{
+	width:100%;
+	background-color:#e6e6e6;
+	border-radius:10px;
+	padding-top:20px;
+	float:left;
+}
+#setting .setting-content-item{
+	min-width:30%;
+	padding:5px;
+}
+#setting .setting-content input{
+	float:right;
+	margin:10px;
+	
+}
+#setting .setting-current {
+	float:left;
+}
+#setting .setting-current span{
+	font-size:16px;
+	border-right:1px solid #cec3c3;
+	min-width:33%;
+}
+#setting .setting-current span:last-child{
+	border-right:none;
+}

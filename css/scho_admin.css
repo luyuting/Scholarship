@@ -1,0 +1,26 @@
+@charset="utf-8";
+.list{
+	display:none;
+}
+#scho_admin{
+	margin-top:100px;
+}
+#scho_admin .scho-content{
+	background-color:#ececec;
+	border-radius:5px;
+	border:1px solid #cecece;
+	padding:10px 0;
+	margin-bottom:10px;
+}
+#scho_table{
+	width:600px;
+	margin-top:50px;
+}
+.main hr{
+	width:100%;
+	padding:0;
+	clear:both;
+}
+.main input[type="button"]{
+	float:right;
+}

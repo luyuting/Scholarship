@@ -1,0 +1,97 @@
+.main-box  .main{
+	margin-top:90px;
+	width:95%;
+	font-size:14px;
+}
+table{
+	text-align:center;
+	border-collapse: collapse;
+	border-spacing: 0;
+	clear:both;
+	width:95%;
+}
+td,th{
+	padding:5px 10px;
+	border:1px solid #f8f2f2;
+}
+thead tr{
+	background-color:#5ea5e6;
+	font-size:12px;
+	color:#fff;
+	text-shadow:1px 1px 1px #666;
+}
+tbody tr{
+	background-color:#ffffe3;
+	font-size:14px;
+}
+.triangle{
+	display:inline-block;
+	border-width:50px;
+	border-color:#f00 #fff #c0c0c0 #000 ;
+	border-style: solid solid solid solid ;
+	width:0px;
+	height:0px;
+	line-height:0px;
+	vertical-align:middle;
+}
+.publicity_title{
+	background-color:#bbb;
+	border-radius:5px;
+	padding:5px 12px;
+	font-size:20px;
+}
+.time_area{
+	background-color:#efefef;
+	color:#777;
+	border-radius:5px;
+	padding:2px 12px;
+}
+.tip{	
+	margin:10px 0;
+}
+.tip div{
+	display:inline-block;
+	color:#fff;
+	max-width:80%;
+}
+.tip img{
+	height:41px;
+	vertical-align:middle;
+	border-radius:5px;
+}
+.tip_tri_l,.tip_tri_r{
+	display:inline-block;
+	border-width:5px;
+	width:0px;
+	height:0px;
+	line-height:0px;
+}
+.tip_tri_l{
+	border-color: transparent #bb0808 transparent transparent; 
+	border-style:dashed solid dashed dashed;
+}
+.tip_tri_r{
+	border-color: transparent transparent transparent #fff; 
+	border-style:dashed dashed dashed solid;
+}
+.tip_body {
+	background-color:#bb0808;
+	border-radius:5px;
+	padding:10px;
+	margin:0 -5px;
+	vertical-align:top;
+}
+.tip .r{
+	background-color:#fff;
+	color:#000;
+	box-shadow:0 0 1px #efefef;
+	text-align:left;
+}
+.tip a{
+	color:#14aeeeb;
+	text-decoration:none;
+	font-size:30px;
+}
+.tip a:hover{
+	color:#f00;
+}

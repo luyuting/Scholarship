@@ -1,0 +1,22 @@
+@charset="utf-8";
+.main-box .main{
+	background:transparent;
+	box-shadow:none;
+	border:none;
+}
+.main-box .main>div{
+	margin-bottom:40px;
+	background-color:#fbfbfb;
+	padding:10px;
+	border-radius:10px;
+	border:1px solid #ececec;
+}
+.main-box .main span{
+	float:left;
+	height:40px;
+	line-height:40px;
+}
+.main-box .main img{
+	width:20px;
+	vertical-align:middle;
+}

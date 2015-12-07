@@ -1,0 +1,87 @@
+@charset="utf-8";
+.cover{
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(111,111,111,0.6);
+	width:100%;
+	min-height:100%;
+	z-index:100;
+	display:none;
+}
+.cover hr{
+	padding:0;
+	clear:both;
+	width:100%;
+}
+.add-box{
+	width: 800px;
+	background: #fbfbfb;
+	margin-top: 50px;
+    margin-left: 350px;
+    font-size: 15px;
+	box-shadow:0 0 20px 0 #666;
+	border-radius:10px;
+	float:left;
+	clear:both;
+}
+.add-box select{
+	/*background-color:#9be2bd;
+	border-color:#15c787;*/
+}
+.add-title{
+	float:left;
+	width:100%;
+	background: #0072ac;
+	color: #fff;
+	font-size:20px;
+	height:50px;
+	line-height:50px;
+	border-radius:10px 10px 0 0;
+}
+.add-title p{
+	padding:0 30px;
+	margin:0;
+}
+.add-content{
+	float:left;
+	padding: 10px;
+}
+.add-content label{
+	width: 4em;
+	display: inline-block;
+	margin-right: 10px;
+}
+.wrapper{
+	float: left;
+	margin:10px;
+	min-width:40%; 
+}
+.wrapper *,.textarea-wrapper *{
+	margin:0;
+}
+.textarea-wrapper:before{
+	content: "";
+	display: block;
+  	clear: both;
+}
+.textarea-wrapper{
+	margin: 10px;
+}
+.textarea-wrapper textarea{
+	vertical-align:top; 
+}
+.textarea-wrapper textarea,.textarea-wrapper label{
+	margin-top: 10px;
+}
+.button-wrapper{
+	float:right;
+	margin-bottom:-10px;
+	margin-right:20px;
+}
+.button-wrapper input{
+	margin-bottom:10px;
+}
+.wrapper select{
+	max-width:200px;
+}

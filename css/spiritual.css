@@ -1,0 +1,41 @@
+@charset="utf-8";
+#apply_spiritual{
+	margin-top:100px;
+	background-color:transparent;
+	border:none;
+	box-shadow:none;
+}
+#apply_spiritual.main strong{
+	color:#0072ac;
+}
+#apply_spiritual.main hr{
+	width:100%;
+	padding:0;
+	clear:both;
+}
+#apply_spiritual.main .hr{
+	/*padding-top:1px;
+	border-top:3px groove #14aeeb;
+	border-bottom:3px groove #fbfbfb;*/
+	padding:1px 0;
+}
+.main-apply{
+	margin-top:0;
+}
+.spiritual_content{
+	margin:10px 10%;
+	padding:10px 0;
+	/*border-left:3px groove #fbfbfb;
+	border-right:3px groove #14aeeb;*/
+	background-color:#fbfbfb;
+	border:1px solid #c0c0c0;
+	border-radius:5px;
+}
+.spiritual_content input[type="button"]{
+	float:right;
+	margin-right:10px;
+}
+frame{
+	height:400px;
+	overflow:scroll;
+}

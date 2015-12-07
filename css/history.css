@@ -1,0 +1,40 @@
+.main-box{
+	border-bottom:2px solid #009eda;
+}
+.arrow{
+	background: url("../image/annual.png") no-repeat;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	height: 30px;
+	width: 115px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0;
+}
+.section{
+	margin:0 10px;
+	border-left: 2px solid #009eda;
+	overflow: hidden;
+}
+.describe{
+	padding:6px 10px;
+	margin:10px;
+	font-size:14px;
+	border-radius:5px;
+	display:inline-block;
+	background:rgba(112,112,123,0.2);
+}
+.audit{
+	background:rgba(79,90,226,0.3);
+}
+.bottom{
+	padding:6px 0;
+	color:#fff;
+	text-shadow:1px 1px 0 #888;
+	margin:10px 10px 10px 180px;
+	border-radius:10px;
+	border:1px solid #aaa;
+	background:rgba(0,0,0,0.3);
+	font-size:12px;
+}
