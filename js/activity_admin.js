@@ -8,7 +8,6 @@ function json(name,describe_a,describe_b,score,ratio){
 	this.name=name;
 	this.describe_a=describe_a;
 	this.describe_b=describe_b;
-	this.type="精神文明";
 	this.score=score;
 	this.ratio=ratio;
 }
