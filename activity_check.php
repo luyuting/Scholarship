@@ -1,4 +1,7 @@
 <?php
+    /* 临时脚本
+     14级临时增加需求，在申请时间之外的基一时间段临时开放文体竞赛的申请入口，其他年级不能进入。
+     */
 	require_once('php/dao/LoginDao.php');
 	$loginDao=new LoginDao;
 	@session_start();
